@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/mk64-app/static/css/main.f7253490.css",
-    "main.js": "/mk64-app/static/js/main.f84f0c81.js",
-    "index.html": "/mk64-app/index.html",
-    "main.f7253490.css.map": "/mk64-app/static/css/main.f7253490.css.map",
-    "main.f84f0c81.js.map": "/mk64-app/static/js/main.f84f0c81.js.map"
+    "main.css": "/mario-kart-shortcuts/static/css/main.f7253490.css",
+    "main.js": "/mario-kart-shortcuts/static/js/main.f84f0c81.js",
+    "index.html": "/mario-kart-shortcuts/index.html",
+    "main.f7253490.css.map": "/mario-kart-shortcuts/static/css/main.f7253490.css.map",
+    "main.f84f0c81.js.map": "/mario-kart-shortcuts/static/js/main.f84f0c81.js.map"
   },
   "entrypoints": [
     "static/css/main.f7253490.css",
