@@ -1,0 +1,18 @@
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  justify-content: center;
+  gap: 12px;
+}
+
+.course-grid img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.course-grid img:hover {
+  transform: scale(1.05);
+  opacity: 0.85;
+}
