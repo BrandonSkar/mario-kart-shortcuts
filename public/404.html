@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
+    <title>Redirecting…</title>
 
     <script>
-      // Take the current path from the GitHub Pages URL
-      // Example: /mario-kart-shortcuts/LR
-      // Remove the repo name (/mario-kart-shortcuts)
-      // Then redirect React to load that route.
+      // Your repo name
       const repo = "/mario-kart-shortcuts";
 
-      // Remove the repo prefix from the current path
-      const path = window.location.pathname.replace(repo, "");
+      // The path GitHub Pages tried to load (ex: /mario-kart-shortcuts/LR)
+      const fullPath = window.location.pathname;
 
-      // Redirect to index.html WITH the original path restored
-      window.location.replace(repo + "/index.html#" + path);
+      // Remove the repo name to get the React Router path (ex: /LR)
+      const reactPath = fullPath.replace(repo, "");
+
+      // Redirect to index.html with the path appended as a hash
+      // React Router will read the hash and load the correct page
+      window.location.replace(repo + "/index.html#" + reactPath);
     </script>
-
   </head>
   <body></body>
 </html>
