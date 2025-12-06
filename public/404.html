@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
 
-<head>
-    <meta charset="utf-8">
-    <title>Redirecting...</title>
-    <script type="text/javascript">
-        // Redirect 404s to index.html so BrowserRouter can handle the route
-        var redirectTo = window.location.protocol + "//" + window.location.host + "/mario-kart-shortcuts" + window.location.pathname + window.location.search;
-        window.location.replace(redirectTo);
+    <script>
+      // Take the current path from the GitHub Pages URL
+      // Example: /mario-kart-shortcuts/LR
+      // Remove the repo name (/mario-kart-shortcuts)
+      // Then redirect React to load that route.
+      const repo = "/mario-kart-shortcuts";
+
+      // Remove the repo prefix from the current path
+      const path = window.location.pathname.replace(repo, "");
+
+      // Redirect to index.html WITH the original path restored
+      window.location.replace(repo + "/index.html#" + path);
     </script>
-</head>
 
-<body></body>
-
+  </head>
+  <body></body>
 </html>
