@@ -9,12 +9,10 @@ export default function App() {
 			<Routes>
 				<Route path="/" element={<HomePage />} />
 				{courses.map((c) => (
-					<Route
-						key={c.code}
-						path={`/${c.code}`}
-						element={<TrackPage course={c} />}
-					/>
+					<Route key={c.code} path={`/${c.code}`} element={<TrackPage course={c} />} />
 				))}
+				{/* Optional catch-all route */}
+				<Route path="*" element={<HomePage />} />
 			</Routes>
 		</BrowserRouter>
 	);

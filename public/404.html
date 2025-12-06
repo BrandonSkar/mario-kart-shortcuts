@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
+<html>
 
-    <script>
-      // Take the current path from the GitHub Pages URL
-      // Example: /mario-kart-shortcuts/LR
-      // Remove the repo name (/mario-kart-shortcuts)
-      // Then redirect React to load that route.
-      const repo = "/mario-kart-shortcuts";
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="refresh" content="0; url=/mario-kart-shortcuts/" />
+	<script>
+		// redirect unknown paths back to index.html
+		const base = "/mario-kart-shortcuts";
+		const path = window.location.pathname;
+		if (!path.startsWith(base)) {
+			window.location.href = base;
+		}
+	</script>
+</head>
 
-      // Remove the repo prefix from the current path
-      const path = window.location.pathname.replace(repo, "");
+<body></body>
 
-      // Redirect to index.html WITH the original path restored
-      window.location.replace(repo + "/index.html#" + path);
-    </script>
-
-  </head>
-  <body></body>
 </html>
