@@ -124,7 +124,7 @@ export default function TrackPage({ course }) {
 					))}
 				</div>
 
-				{hasJPN && (
+				{selectedSet === "jp" && hasJPN && (
 					<Tooltip>
 						<p
 							className="jp-exclaimer"
