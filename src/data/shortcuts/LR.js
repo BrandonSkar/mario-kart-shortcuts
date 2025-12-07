@@ -88,7 +88,7 @@ export const LR_shortcuts = {
         {
             id: "LR01",
             title: "LR 0.1 flap",
-            description: "A flap of 0.01 or 0.02 seconds\nThis shortcut requires 'Cruise Control' (CC)\n" +
+            description: "A flap of 0.01 or 0.02 seconds\nThis shortcut requires Luigi and 'Cruise Control' (CC)\n" +
             "Where you hold up and very slightly push left on the joystick and press L + R + Start to reset the neutral position of the joystick\n" +
             "So that the neutral position is down and very slightly right",
             steps: [

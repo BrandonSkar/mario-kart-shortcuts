@@ -50,6 +50,7 @@ export default function TrackPage({ course }) {
 
 	const [modalOpen, setModalOpen] = useState(false);
 	const [modalSrc, setModalSrc] = useState("");
+	const [showThanks, setShowThanks] = useState(false);
 
 	const openModal = (src) => {
 		setModalSrc(src);
@@ -87,6 +88,11 @@ export default function TrackPage({ course }) {
 						)}
 					</div>
 				))}
+				<div className="nav-thanks">
+					<button className="thanks-btn" onClick={() => setShowThanks(true)}>
+						Special Thanks
+					</button>
+				</div>
 			</nav>
 
 			{/* MAIN CONTENT */}
@@ -221,6 +227,30 @@ export default function TrackPage({ course }) {
 					</div>
 				)}
 			</div>
+			{showThanks && (
+				<div
+					className="thanks-overlay"
+					onClick={() => setShowThanks(false)}
+				>
+					<div
+						className="thanks-modal"
+						onClick={(e) => e.stopPropagation()}
+					>
+						<h2>Thanks!</h2>
+						<p>
+							<b>Brody Wojcik</b> for helping me understand some shortcuts better so I can explain them properly.
+						</p>
+
+						<button
+							className="close-btn"
+							onClick={() => setShowThanks(false)}
+						>
+							Close
+						</button>
+					</div>
+				</div>
+			)}
+
 			{modalOpen && (
 				<div className="image-modal" onClick={() => setModalOpen(false)}>
 					<img src={modalSrc} alt="Enlarged" className="modal-image" />

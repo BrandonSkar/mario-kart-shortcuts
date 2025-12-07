@@ -229,6 +229,51 @@
 	pointer-events: none;
 }
 
+.nav-thanks {
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px solid #444;
+}
+
+.thanks-btn {
+  background: none;
+  border: none;
+  padding: 15px;
+  color: #ff6fb4;
+  cursor: pointer;
+  text-align: left;
+  font-size: 14px;
+}
+
+.thanks-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+}
+
+.thanks-modal {
+  background: #fff;
+  padding: 24px;
+  border-radius: 10px;
+  max-width: 350px;
+  width: 90%;
+  color: #222;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.close-btn {
+  margin-top: 20px;
+  padding: 8px 14px;
+  background: #ddd;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
 .image-modal {
 	position: fixed;
 	top: 0;
