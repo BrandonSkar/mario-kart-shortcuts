@@ -34,8 +34,8 @@ export const TT_shortcuts = {
             ]
         },
         {
-            id: "na-wall-clip",
-            title: "NA / PAL Wall Clip",
+            id: "na-fence-clip",
+            title: "NA / PAL Fence Clip",
             description: "Pick Bowser and do some precise driving and jumping to get a fast 3lap and flap",
             steps: [
                 {
@@ -156,12 +156,50 @@ export const TT_shortcuts = {
                     snipClips: [
                         `${process.env.PUBLIC_URL}/assets/videos/TT/lap1-credit.mp4`
                     ],
+                },
+                {
+                    title: "3 single frame backups"
+                },
+                {
+                    title: "Align Luigi's head with the railing.\n" +
+                    "Look for the 2 pixels sticking out of the post",
+                    images: [
+                        `${process.env.PUBLIC_URL}/assets/images/TT/post-alignment.png`
+                    ]
+                },
+                {
+                    title: "2 single frame backups"
+                },
+                {
+                    title: "NOTE: Zoom in.\nTurn your kart around and align with the image\n" +
+                    "Look for the star pattern at the top and top left of Luigi's hat should be at the end of the middle rail",
+                    images: [
+                        `${process.env.PUBLIC_URL}/assets/images/TT/final-alignment.png`,
+                        `${process.env.PUBLIC_URL}/assets/images/TT/final-alignment-markings.png`
+                    ]
+                },
+                {
+                    title: "NOTE: Zoom out\nTest your alignment by doing a fully charged left hop\n" +
+                    "Look for the solid white part of the finish line to be just like the one in the image",
+                    images: [
+                        `${process.env.PUBLIC_URL}/assets/images/TT/final-alignment-test.png`
+                    ]
+                },
+                {
+                    title: "Fully charge right and hop back, if it's correct move on to the next step or else slightly hop left and right to look for the star pattern again"
+                },
+                {
+                    title: "A + shroom and turn right on the joystick just before you hit the wall"
                 }
             ],
             resources: [
                 {
                     label: "Shroom Timings",
                     link: `${process.env.PUBLIC_URL}/assets/images/TT/TT-shroom-timings.png`
+                },
+                {
+                    label: "Organized Inputs",
+                    link: `${process.env.PUBLIC_URL}/assets/images/TT/TT-inputs.png`
                 }
             ]
         }
