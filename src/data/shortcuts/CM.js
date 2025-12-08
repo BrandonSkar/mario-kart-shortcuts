@@ -62,7 +62,7 @@ export const CM_shortcuts = {
 					]
 				},
 				{
-					title: "Still reversing (holding down + B), do an AB spin for about .1-.2 seconds (holding down and both A + B), release the joystick and B at the same time\n" +
+					title: "Still reversing (holding down + B), do an AB spin for about 0.1 - 0.2 seconds (holding down and both A + B), release the joystick and B at the same time\n" +
 					"And finally hold left for a very short amount of time and shroom and release left\n" +
 					"On the frame when you hit the wall you want to hold left and press R at the same time",
 				}
