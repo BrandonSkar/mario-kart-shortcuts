@@ -73,7 +73,7 @@ export const FS_shortcuts = {
 					]
 				},
 				{
-					title: "Fully charge right, hold A + B + Z on the same frame and jump about .1 seconds later just before going out of bounds",
+					title: "Fully charge right, hold A + B + Z on the same frame and jump about 0.1 seconds later just before going out of bounds",
 					snipClips: [
                         `${process.env.PUBLIC_URL}/assets/videos/FS/quick-flap.mp4`
                     ],
@@ -173,21 +173,13 @@ export const FS_shortcuts = {
 					title: "Do 9 fully charged right hops"
 				},
 				{
-					title: "Fully charge right, press Z and jump about .1 seconds later just before going out of bounds\n" +
+					title: "Fully charge right, press Z and jump about 0.1 seconds later just before going out of bounds\n" +
 					"When Lakitu puts you down you need to shroom on the frame he puts you down\n" +
 					"TIP: Spamming C-Down is easier than spamming Z",
 				},
 
 			],
 			resources: [
-				{
-					label: "FS flap Setup Ghost",
-					link: "https://discord.com/channels/692171166034427916/1117106342784671784/1245078618665652305"
-				},
-				{
-					label: "Converter for EverDrive / DexDrive",
-					link: "https://beckabney.com/mk64/mempak.php"
-				},
 				{
 					label: "Brandon Skar 4\"25 Twitch",
 					link: "https://www.twitch.tv/videos/2238455114"
