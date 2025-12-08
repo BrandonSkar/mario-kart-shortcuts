@@ -149,7 +149,7 @@ export const LR_shortcuts = {
                     title: "Charge right and hop 12 times"
                 },
                 {
-                    title: "Tap B 4 times, then need to be 4 1 frame B taps"
+                    title: "Do 4 1 frame B taps"
                 },
                 {
                     title: "Charge right and hop 3 times"

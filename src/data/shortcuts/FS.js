@@ -137,8 +137,8 @@ export const FS_shortcuts = {
 				},
 				{
 					title: "Now the hard part... fully charge right on the joystick\n" +
-					"hold A and when you reach the snow bank where the main road meets the snow\n," +
-					"swap from holding A to holding B on the same frame\n" +
+					"Hold A and when you reach the snow bank where the main road meets the snow or 191 bpm for 8 beats\n" +
+					"Swap from holding A to holding B on the same frame\n" +
 					"TIP: Use 2 hands, your right thumb holds A and then your left thumb holds B so you can let go of A and start holding B on the same frame\n" +
 					"Look for the ' in the time to be just right of the finish line like in the image",
 					images: [
@@ -148,16 +148,28 @@ export const FS_shortcuts = {
 					snipClips: [
                         `${process.env.PUBLIC_URL}/assets/videos/FS/AB-swap.mp4`
                     ],
+					links: [
+						{
+							label: "191 BPM Metronome",
+							link: "https://metronome-online.com/191-bpm"
+						}
+					]
 				},
 				{
 					title: "Do 1 fully charged right hop"
 				},
 				{
-					title: "Back up for about 6.5 seconds. This is adjustable so you don't have to back up perfectly\n" +
+					title: "Back up for about 6.5 seconds or 200 bpm metronome for 23 beats. This is adjustable so you don't have to back up perfectly\n" +
 					"You should align yourself with the image",
 					images: [
 						`${process.env.PUBLIC_URL}/assets/images/FS/after-backup.png`,
 					],
+					links: [
+						{
+							label: "200 BPM Metronome",
+							link: "https://metronome-online.com/200-bpm"
+						}
+					]
 				},
 				{
 					title: "Do 2 fully charged left hops to test if you're in the correct position\n" +
@@ -180,6 +192,14 @@ export const FS_shortcuts = {
 
 			],
 			resources: [
+				{
+					label: "Shroom Timings",
+					link: `${process.env.PUBLIC_URL}/assets/images/FS/FS-shroom-timings.png`
+				},
+				{
+					label: "Organized Inputs",
+					link: "https://discord.com/channels/692171166034427916/1117106342784671784/1317676223727669310"
+				},
 				{
 					label: "Brandon Skar 4\"25 Twitch",
 					link: "https://www.twitch.tv/videos/2238455114"

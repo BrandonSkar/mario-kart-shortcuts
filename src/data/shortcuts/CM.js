@@ -62,6 +62,13 @@ export const CM_shortcuts = {
 					]
 				},
 				{
+					title: "You want to aim to shroom somewhere around the red line in the image\n" +
+					"I go farther down the hill than most other videos (which is why it's a bit slower) but try other strategies and find what works best for you",
+					images: [
+						`${process.env.PUBLIC_URL}/assets/images/CM/wt-shroom-spot.png`
+					]
+				},
+				{
 					title: "Still reversing (holding down + B), do an AB spin for about 0.1 - 0.2 seconds (holding down and both A + B), release the joystick and B at the same time\n" +
 					"And finally hold left for a very short amount of time and shroom and release left\n" +
 					"On the frame when you hit the wall you want to hold left and press R at the same time",
