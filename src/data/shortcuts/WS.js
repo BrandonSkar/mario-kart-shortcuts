@@ -31,7 +31,7 @@ export const WS_shortcuts = {
 					title: "Do the 3lap Wall Jump but don't cross the finish line"
 				},
 				{
-					title: "Line up just before the finish line facing the wall\n" +
+					title: "Line up just before the finish line facing the wall and triple tap A, press R when you hit the wall\n" +
 					"The goal is to cross the finish line as you jump over the wall",
 					images: [
 						`${process.env.PUBLIC_URL}/assets/images/WS/wall-jump-flap.png`
