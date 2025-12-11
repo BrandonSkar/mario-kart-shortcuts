@@ -72,7 +72,7 @@ export const RRy_shortcuts = {
 				{
 					title: "Go a little bit past the first turn and turn right, align yourself with the image\n" +
 					"TIP: If you're using the ghost, It's hard to see but you should see a line going up and right, you want to hit near left part of the line\n" +
-					"Look for a small amount of the white square to the right of the item box" +
+					"Look for a small amount of the white square to the right of the item box\n" +
 					"Many alignments work, it doesn't have to be perfect",
 					images: [
 						`${process.env.PUBLIC_URL}/assets/images/RRy/wall-jump-alignment.png`,
@@ -86,7 +86,7 @@ export const RRy_shortcuts = {
 					],
 				},
 				{
-					title: "When you land it should bounce you back up in the air. Then right as you're landing again Press R" +
+					title: "When you land it should bounce you back up in the air. Then right as you're landing again Press R\n" +
 					"NOTE: You only need to press R once on the road and again when you're about to hit the wall\n" +
 					"But it's ok to just spam R as well",
 					snipClips: [
