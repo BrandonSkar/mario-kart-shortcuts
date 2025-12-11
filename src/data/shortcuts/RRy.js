@@ -46,7 +46,7 @@ export const RRy_shortcuts = {
 			"NOTE: This really only saves time on the last lap since Lakitu puts you down facing backwards and you'll have to spend time turning around to get going again",
 			steps: [
 				{
-					title: "At the end of the big ramp slide off the ramp to the left at the correct angle a little bit away from the railing" +
+					title: "At the end of the big ramp slide off the ramp to the left at the correct angle a little bit away from the railing\n" +
 					"You want to be as far away from the road as possible when you land but still trigger the warp from the Ramp Jump shortcut",
 					images: [
 						`${process.env.PUBLIC_URL}/assets/images/RRy/flw-ramp-jump.png`,
@@ -57,7 +57,7 @@ export const RRy_shortcuts = {
 		{
 			id: "wall-jump",
 			title: "Wall Jump",
-			description: "Just after the first turn you can jump on to of the red/white wall and have Lakitu put you down on the big ramp" +
+			description: "Just after the first turn you can jump on to of the red/white wall and have Lakitu put you down on the big ramp\n" +
 			"NOTE: YOU HAVE TO DO River Jump for it to work but doing the Ramp Jump/FLW shortcut breaks this shortcut",
 			steps: [
 				{
