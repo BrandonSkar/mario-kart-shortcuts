@@ -27,7 +27,8 @@ export const FS_shortcuts = {
 			id: "quick-3lap",
 			title: "Quick OOB 3lap",
 			description: "There is a very specific location out of bounds that will trigger full lap credit if you jump out of bounds at the right place\n" +
-			"NOTE: If you're able to download ghosts download the FS_SC_3Lap_SetupGhost.n64 from resources",
+			"NOTE: If you're able to download ghosts download the FS_SC_3Lap_SetupGhost.n64 from resources\n" +
+			"Or make your own following the video in resources",
 			steps: [
 				{
 					title: "Do the bridge shortcut like normal",
@@ -54,6 +55,10 @@ export const FS_shortcuts = {
 				{
 					label: "Converter for EverDrive / DexDrive",
 					link: "https://beckabney.com/mk64/mempak.php"
+				},
+				{
+					label: "Setup Ghost Video",
+					link: "https://discord.com/channels/692171166034427916/1117106342784671784/1394296688931508294"
 				}
 			]
 		},

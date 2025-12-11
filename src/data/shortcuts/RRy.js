@@ -42,7 +42,7 @@ export const RRy_shortcuts = {
 		{
 			id: "flw-ramp-jump",
 			title: "Finish Line Warp (FLW)",
-			description: "Doing the ramp just a certain way will trick Lakitu into putting you down on the finish line and immediately trigger the lap\n" +
+			description: "Doing the Ramp Jump just a certain way will trick Lakitu into putting you down on the finish line and immediately trigger the lap\n" +
 			"NOTE: This really only saves time on the last lap since Lakitu puts you down facing backwards and you'll have to spend time turning around to get going again",
 			steps: [
 				{
@@ -71,7 +71,7 @@ export const RRy_shortcuts = {
 				},
 				{
 					title: "Go a little bit past the first turn and turn right, align yourself with the image\n" +
-					"TIP: If you're using the ghost, It's hard to see but you should see a line going up and right, you want to hit near left part of the line\n" +
+					"TIP: If you're using the ghost, It's hard to see but you should see a line going up and right, you want to hit near the left part of the line\n" +
 					"Look for a small amount of the white square to the right of the item box\n" +
 					"Many alignments work, it doesn't have to be perfect",
 					images: [
