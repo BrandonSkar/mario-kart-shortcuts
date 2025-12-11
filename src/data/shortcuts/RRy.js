@@ -71,15 +71,19 @@ export const RRy_shortcuts = {
 				},
 				{
 					title: "Go a little bit past the first turn and turn right, align yourself with the image\n" +
-					"TIP: If you're using the ghost, It's hard to see but you shoould see a line going up and right, you want to hit near left part of the line\n" +
-					"There should be a small amount of the white square to the right of the item box",
+					"TIP: If you're using the ghost, It's hard to see but you should see a line going up and right, you want to hit near left part of the line\n" +
+					"Look for a small amount of the white square to the right of the item box" +
+					"Many alignments work, it doesn't have to be perfect",
 					images: [
 						`${process.env.PUBLIC_URL}/assets/images/RRy/wall-jump-alignment.png`,
 						`${process.env.PUBLIC_URL}/assets/images/RRy/wall-jump-alignment-markings.png`,
 					],
 				},
 				{
-					title: "Shroom and press R about half way across the road"
+					title: "Shroom and press R about half way across the road, you want to land in the grass just past the road",
+					images: [
+						`${process.env.PUBLIC_URL}/assets/images/RRy/wall-jump-landing.png`,
+					],
 				},
 				{
 					title: "When you land it should bounce you back up in the air. Then right as you're landing again Press R" +
