@@ -77,7 +77,7 @@ export const WS_shortcuts = {
 				},
 				{
 					title: "Press Z when you hit the ground. Run into the wall, you'll get bounced back and when you hit the wall again Press R\n"+
-					"TIP: It's easier to land if you back up a few frames but a little slower",
+					"TIP: It's easier to land if you back up a few frames after landing on the ground",
 
 				}
 			],
