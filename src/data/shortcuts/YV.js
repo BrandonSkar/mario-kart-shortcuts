@@ -128,14 +128,6 @@ export const YV_shortcuts = {
 					],
 				},
 				{
-					title: "Still slowly doing single frame A taps watch the pixels on the post\n" +
-					"The left side pixels will begin disappearing until you get the fence bounce and then they will all return and you will see your cart bounce back slightly",
-					snipClips: [
-						`${process.env.PUBLIC_URL}/assets/videos/YV/full-screen-fence-bounce.mp4`,
-						`${process.env.PUBLIC_URL}/assets/videos/YV/zoomed-in-fence-bounce.mp4`,
-					],
-				},
-				{
 					title: "Zoom out with the camera (C-up)"
 				},
 				{
