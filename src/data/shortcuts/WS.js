@@ -13,7 +13,7 @@ export const WS_shortcuts = {
 					title: "Turn around and face the finish line. Line yourself up so that when you jump over the wall you end up on the other side behind the finish line"
 				},
 				{
-					title: "Drive into the wall and Press R"
+					title: "Triple tap A and drive into the wall and Press R on the frame you hit the wall"
 				}
 			]
 		},

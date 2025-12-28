@@ -87,7 +87,7 @@ export const LR_shortcuts = {
         },
         {
             id: "LR01",
-            title: "LR 0.1 flap",
+            title: "LR .01 flap",
             description: "A flap of 0.01 or 0.02 seconds\nThis shortcut requires Luigi and 'Cruise Control' (CC)\n" +
             "Where you hold up and very slightly push left on the joystick and press L + R + Start to reset the neutral position of the joystick\n" +
             "So that the neutral position is down and very slightly right",
@@ -121,7 +121,7 @@ export const LR_shortcuts = {
                 },
                 {
                     title: "Press B for 229 frames\n" +
-                    "183 bpm Metronome for 24.5 beats\n" +
+                    "183 BPM Metronome for 24.5 beats\n" +
                     "TIP: Start at 1 when you press B, count to 8 3 times and release half way between the last 8 and the next beat",
                     snipClips: [
                         `${process.env.PUBLIC_URL}/assets/videos/LR/LR01-backup.mp4`

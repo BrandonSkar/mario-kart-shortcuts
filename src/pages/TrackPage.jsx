@@ -210,7 +210,7 @@ export default function TrackPage({ course }) {
 										))}
 									</div>}
 									{step.links && <div className="item links-container">
-										{step.links.map((link, i) => (
+										{step.links.map((link, i) => (<>
 											<a
 												key={link.link}
 												href={link.link}
@@ -219,8 +219,8 @@ export default function TrackPage({ course }) {
 												className="link"
 											>
 												{link.label}
-											</a>
-										))}
+											</a><br />
+										</>))}
 									</div>}
 
 								</div>

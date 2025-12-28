@@ -142,7 +142,7 @@ export const FS_shortcuts = {
 				},
 				{
 					title: "Now the hard part... fully charge right on the joystick\n" +
-					"Hold A and when you reach the snow bank where the main road meets the snow or 191 bpm for 8 beats\n" +
+					"Hold A and when you reach the snow bank where the main road meets the snow or 191 BPM for 8 beats\n" +
 					"Swap from holding A to holding B on the same frame\n" +
 					"TIP: Use 2 hands, your right thumb holds A and then your left thumb holds B so you can let go of A and start holding B on the same frame\n" +
 					"Look for the ' in the time to be just right of the finish line like in the image",
@@ -164,7 +164,7 @@ export const FS_shortcuts = {
 					title: "Do 1 fully charged right hop"
 				},
 				{
-					title: "Back up for about 6.5 seconds or 200 bpm metronome for 23 beats. This is adjustable so you don't have to back up perfectly\n" +
+					title: "Back up for about 6.5 seconds or 200 BPM metronome for 23 beats. This is adjustable so you don't have to back up perfectly\n" +
 					"You should align yourself with the image",
 					images: [
 						`${process.env.PUBLIC_URL}/assets/images/FS/after-backup.png`,
