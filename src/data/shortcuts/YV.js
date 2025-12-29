@@ -232,6 +232,12 @@ export const YV_shortcuts = {
 						},
 					]
 				},
+			],
+			resources: [
+				{
+					label: "Shroom Timings",
+					link: `${process.env.PUBLIC_URL}/assets/images/YV/01-shroom-timings.png`
+				},
 			]
 		},
 	],
