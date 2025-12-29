@@ -54,9 +54,7 @@ export const YV_shortcuts = {
 		{
 			id: "yv-01",
 			title: "YV .01 flap",
-			description: "One of the hardest shortcuts in the game.\n" +
-			".02 isn't bad but .01 is so hard for some reason\n" +
-			"You have to be pixel perfect with EVERY setup, if you land it without being pixel perfect you will be the first",
+			description: "One of the hardest shortcuts in the game",
 			steps: [
 				{
 					title: "Pick Luigi"
@@ -137,7 +135,8 @@ export const YV_shortcuts = {
 					]
 				},
 				{
-					title: "For the first backup you want 180 BPM, start on 1 and let go of B just before you reach 9",
+					title: "For the first backup you want 180 BPM, start on 1 and let go of B just before you reach 9\n" +
+					"This is NOT adjustable, if you mess up the back up you have to go back to step 7 and do the fence bounce again",
 					links: [
 						{
 							label: "180 BPM",
